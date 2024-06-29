@@ -1,0 +1,16 @@
+body {
+    background-color: #FFEFEF;
+}
+
+.container {
+    max-width: 500px;
+}
+
+.invalid-feedback,
+.password-mismatch-feedback {
+    display: none;
+}
+
+input:invalid + .invalid-feedback {
+    display: block;
+}
